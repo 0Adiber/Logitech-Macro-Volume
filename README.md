@@ -13,7 +13,9 @@ For a long time now, I haven't found a way to use the Macro Keys of my Logitech 
 
 1. Download [changevol.pyw](./changevol.pyw)
 
-2. Edit the function of a Macro to Shortcut and enter the following
+2. `pip install pycaw` 
+
+3. Edit the function of a Macro to Shortcut and enter the following
 
 ```bash
 pyw <path to changevol.pyw> -p <program> [-v <volume> | -m]
